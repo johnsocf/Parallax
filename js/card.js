@@ -45,13 +45,13 @@
 	 		if(y>=0 && y<992) 	{
 	 			$page1.css('background-position', '30px ' + firstOffset + 'px' );
 	 		}
-	 		if(y>=100 && y<800) 	{
+	 		if(y>=100 && y<700) 	{
 	 			$pagetwoheader.css({opacity: (0)});
 
 	 		}
-	 		if(y>=800 && y<1592) 	{
+	 		if(y>=700 && y<1592) 	{
 	 			// $page2.css('transform', 'translateX('+ (y-597)*5 + 'px)');
-	 			$pagetwoheader.css({opacity: (y-200)/(1092-300)});
+	 			$pagetwoheader.css({opacity: (y-100)/(1092-300)});
 
 
 	 			// $page3initial.animate({opacity: y-y});
