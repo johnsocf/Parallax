@@ -1,0 +1,269 @@
+body {
+	background-color: #C6F600;
+}
+
+#content {
+	width:92%;
+	height:960px;
+	background-color:#BADA55;
+	margin-left:40px;
+	position:relative;
+}
+#container {
+	width:1080px;
+	height:1960px;
+	background-image: url(../images/blueframe.jpg);
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+#logo {
+	background-color:#000;
+	height:75px;
+	width:1074px;
+	border:solid #fff 3px;
+	color:#fff;
+}
+
+#background{
+	height:2000px;
+	width:1000px;
+	position:absolute;
+	background:url(../images/mtnclear2.jpg) no-repeat;
+}
+
+#credits {
+	background-color: #666;
+	height: 50px;
+	width: 1080px;
+	position: absolute;
+	background-position: 0px 0px;
+	top: 237%;
+}
+
+.nav {
+	position:fixed;
+	z-index: 10;
+}
+
+.fixed {
+	position:fixed;
+}
+
+#menu {
+	float:left;
+	margin-top:110px;
+	background-color:#fff;
+	width:1080;
+	height:30px;
+	margin-left:15px;
+}
+
+.elit {
+	height:50px;
+	width: 50px;
+	background-color: #fff;
+}
+
+.ipsum {
+	height:50px;
+	width: 50px;
+	background-color: #fff;
+
+}
+
+ul.nav {
+	width:1066px;
+	height:30px;
+	list-style:none;
+	overflow:hidden;
+	margin: 0;
+	padding: 7px;
+	background-color:#000;
+
+}
+ul.nav li{
+	float:left;
+}
+
+ul.nav li a {
+	display: block;
+	margin: 0px 5px;
+	width:150px;
+}
+
+ul.nav li a.elit {
+	 width: 150px; background-position: 0 0;
+	 height: 30px;
+	 background-image:url(); 
+	 text-indent: -9999px;
+ }
+
+ul.nav li a.elit:hover, ul.nav li a.elit:focus {
+	 background-position: 0 -30px;
+ }
+ 
+ul.nav li a.ipsum {
+	 width: 150px; background-position: 0 0;
+	 height: 30px;
+	 background-image:url(); 
+	 text-indent: -9999px;
+ }
+
+ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
+	 background-position: 0 -30px;
+ }
+
+#page1 {
+		height:960px;
+		max-width:1000px;
+		background-image:url('');
+		background-repeat: no-repeat;
+		background-position: 0 0px;
+		position:relative;
+		background-color:#00f8fc;
+		opacity:.8;
+		background:url(../images/mountainfive.jpg) no-repeat;
+		z-index: 1;
+}
+#vid-box {
+	height:110px;
+	width:1000px;
+	background-color:#37FDFC;
+	position: absolute;
+	top:105%;
+}
+
+#pagetwo-header {
+	height:83px;
+	width:1000px;
+	background-color:black;
+	border: 3px solid #fff;
+	position: absolute;
+	top:88.9%;
+	opacity:0;
+}
+
+#textboxtwo {
+	height:210px;
+	width:800px;
+	background-color:#fff;
+	position: absolute;
+	top:165%;
+	left:10%;
+	border: 2px solid #000;
+}
+
+/*#page1overlay {
+		height:360px;
+		max-width:1000px;
+		background-image:url('');
+		background-repeat: no-repeat;
+		background-position: 0 30px;
+		position: absolute;
+		top:30%;
+		background-color:red;
+		opacity:1;
+}*/
+
+/*#page2 {
+		height:960px;
+		width:1000px;
+		background-image:url('');
+		background-repeat:no-repeat;
+		background-position: 0 0px;
+		position:absolute;
+		margin-top:0px;
+		transition: all 10.0s linear;
+		transform-style: preserve-3d;
+		perspective:100;
+		background-color:blue;
+		opacity:.4;
+}*/
+#page3 {
+		height:960px;
+		width:1000px;
+		background-image:url('');
+		background-repeat:no-repeat;
+		background-position: 0 0px;
+		position:absolute;
+		background-color: #BADA55; 
+		margin-top:0px;
+		transition: all 1.0s linear;
+		transform-style: preserve-3d;
+		perspective:100;
+		background-image: url(../images/frameborder.jpg);
+		opacity:1;
+}
+#frame {
+		height:960px;
+		width:1000px;
+		background-image:url('');
+		background-repeat:no-repeat;
+		background-position: 0 0px;
+		position:absolute;
+		margin-top:0px;
+		transition: all 1.0s linear;
+		transform-style: preserve-3d;
+		perspective:100;
+		background-image: url(../images/frame2.png);
+		opacity:1;
+		z-index: 3;
+}
+#page3initial {
+		height:378px;
+		width:662px;
+		background-image:url('');
+		background-repeat:no-repeat;
+		background-position: 0 0px;
+		position:absolute;
+		top:120%;
+		transition: all 1.5s linear;
+		transform-style: preserve-3d;
+		perspective:100;
+		background-color:#fff;
+		background-image: url(../images/mtn3.jpg);
+		opacity:.2;
+}
+#textboxone {
+		height:329px;
+		width:1000px;
+		background-image:url('');
+		background-repeat:no-repeat;
+		background-position: 0 0px;
+		position:absolute;
+		top:10%;
+		transition: all .5s linear;
+		transform-style: preserve-3d;
+		perspective:100;
+		background-image: url(../images/textbox.jpg);
+		opacity:.7;
+}
+#textbox {
+		height:315px;
+		width:1000px;
+		background-image:url('');
+		background-repeat:no-repeat;
+		background-position: 0 0px;
+		position:absolute;
+		top:123%;
+		transition: all .5s linear;
+		transform-style: preserve-3d;
+		perspective:100;
+		background-image: url(../images/textbox.jpg);
+		opacity:.7;
+}
+#textboxoverlay {
+		height:315px;
+		width:1000px;
+		background-image:url('');
+		background-repeat:no-repeat;
+		background-position: 0 0px;
+		position:absolute;
+		top:123%;
+		transition: all .5s linear;
+		transform-style: preserve-3d;
+		perspective:100;
+		background-image: url(../images/textbox.jpg);
+		opacity:.2;
+}
