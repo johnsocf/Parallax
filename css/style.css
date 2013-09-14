@@ -93,8 +93,9 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 #container {
 	max-width:1076px;
 	width:91.9%;
-	max-height:1960px;
-	height:300%;
+	/*max-height:1960px;
+	height:300%;*/
+	padding-bottom: 93%;
 	/*background-image: url(../images/blueframe.jpg);*/
 	background-color:#92DFFF;
 	border:7px solid black;
@@ -145,7 +146,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	background-color:black;
 	border: 3px solid #fff;
 	position: absolute;
-	top:89.4%;
+	top:86.4%;
 	opacity:0;
 }
 
@@ -182,9 +183,8 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 }
 
 #page3 {
-		max-height:955px;
-		height:100%;
 		width:96.5%;
+		padding-bottom: 98%;
 		background-image:url('');
 		background-repeat:no-repeat;
 		background-position: 0 0px;
@@ -228,10 +228,10 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 }
 
 #page3initial {
-		height:378px;
 		max-width:662px;
 		width:70.6%;
-		background-image:url('');
+		padding-bottom: 39.95%;
+		overflow: hidden;
 		background-repeat:no-repeat;
 		background-position: 0 0px;
 		position:absolute;
@@ -263,12 +263,11 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 }*/
 
 #textboxtwo {
-	max-height:210px;
-	height:100%;
+	padding-bottom: 39%;
 	width:94%;
 	background-color:#fff;
 	position: absolute;
-	top:162%;
+	top:170%;
 	left:3%;
 	border: 2px solid #000;
 }
@@ -318,9 +317,6 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 
 @media (max-width:934px) {
-	#container {
-		height:2000px;
-	}
 	#textboxtwo {
 		top:153%;
 	}
@@ -334,14 +330,12 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	#vid-box {
 		top:103%;
 	}
-	#page3initial {
-		height:269px;
-	}
 	#textbox {
 		height:80%;
 	}
 	#textboxtwo {
 		left:4.5%;
+		top: 147%;
 	}
 	#frame {
 		height: 97%;

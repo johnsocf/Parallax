@@ -60,14 +60,15 @@
 
 	 		if(y>=200 && y<1892) 	{
 	 			// $page2.css('transform', 'translateX('+ (y-597)*5 + 'px)');
-	 			$page3.css({opacity: (y-200)/(1090-500)});
-	 			$page3initial.css({opacity: (y-200)/(1090-500)});
-	 			$page3initial.css('transform', 'translateX('+ (Math.round(y/7)) + 'px)'); 
+	 			$page3.css({opacity: (y-200)/(1090-700)});
+	 			$page3initial.css({opacity: (y-150)/(890-400)});
+	 			$page3initial.css('transform', 'translateX('+ (Math.round(y/4.35)) + 'px)'); 
 
 
 	 			// $page3initial.animate({opacity: y-y});
 	 			// $page2.css('transform', 'scale('+ (-y) + 'px)');
 	 		}
+
 	 	$page1.css('background-position', '0px ' + yOffset + 'px' );
 
 	 	$page2.css('background-position', '0px ' + reverseOffset + 'px' );
