@@ -1,7 +1,7 @@
     (function () {
      
-	     var $primaryAnchors = $('ul.nav a');
-	     var $page = $('html,body')
+	     var $primaryAnchors = $('ul.nav a'),
+	     $page = $('html,body');
 	     
 	     
 	     $primaryAnchors.click(function (event) {
