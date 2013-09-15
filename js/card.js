@@ -41,7 +41,7 @@
 			scale = 1
 		}
 
-	 	if($(window).width()>700) {
+	 	if($(window).width()>829) {
 	 		if(y>=0 && y<992) 	{
 	 			$page1.css('background-position', '30px ' + firstOffset + 'px' );
 	 		}
@@ -62,7 +62,41 @@
 	 			// $page2.css('transform', 'translateX('+ (y-597)*5 + 'px)');
 	 			// $page3.css({opacity: (y-200)/(1090-700)});
 	 			$page3initial.css({opacity: (y-150)/(890-400)});
-	 			$page3initial.css('transform', 'translateX('+ (Math.round(y/4.35)) + 'px)'); 
+	 			$page3initial.css('transform', 'translateX('+ (Math.round(y/3.4)) + 'px)'); 
+
+
+	 			// $page3initial.animate({opacity: y-y});
+	 			// $page2.css('transform', 'scale('+ (-y) + 'px)');
+	 		}
+
+	 	$page1.css('background-position', '0px ' + yOffset + 'px' );
+
+	 	$page2.css('background-position', '0px ' + reverseOffset + 'px' );
+	 	$background.css('background-position', '0px ' + reverseOffset + 'px' );
+	 }
+	 
+	 else {
+	 		if(y>=0 && y<992) 	{
+	 			$page1.css('background-position', '30px ' + firstOffset + 'px' );
+	 		}
+	 		if(y>=100 && y<400) 	{
+	 			$pagetwoheader.css({opacity: (0)});
+
+	 		}
+	 		if(y>=700 && y<1592) 	{
+	 			// $page2.css('transform', 'translateX('+ (y-597)*5 + 'px)');
+	 			$pagetwoheader.css({opacity: (y-100)/(1092-300)});
+
+
+	 			// $page3initial.animate({opacity: y-y});
+	 			// $page2.css('transform', 'scale('+ (-y) + 'px)');
+	 		}
+
+	 		if(y>=200 && y<1892) 	{
+	 			// $page2.css('transform', 'translateX('+ (y-597)*5 + 'px)');
+	 			// $page3.css({opacity: (y-200)/(1090-700)});
+	 			$page3initial.css({opacity: (y-150)/(890-400)});
+	 			$page3initial.css('transform', 'translateX('+ (Math.round(y/6)) + 'px)'); 
 
 
 	 			// $page3initial.animate({opacity: y-y});
