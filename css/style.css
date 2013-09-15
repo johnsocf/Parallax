@@ -229,6 +229,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	width:55%;
 	left: 38.4%;
 	background-size:100%;
+	margin-left:-206px;
 }
 
 #textbox {
