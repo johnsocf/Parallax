@@ -22,6 +22,7 @@
   		$page3initial = $('#page3initial'),
   		$background = $('#background'),
   		$pagetwoheader = $('#pagetwo-header');
+  		$bluebird = $('#bluebird');
 
   		var windowWidth = $(window).width();
 
@@ -80,6 +81,7 @@
 	 			// $page3.css({opacity: (y-200)/(1090-700)});
 	 			$page3initial.css({opacity: (y-150)/(890-400)});
 	 			$page3initial.css('transform', 'translateX('+ (Math.round(y/3.4)) + 'px)'); 
+	 			$bluebird.css('transform', 'translateX('+ (Math.round(y/12)) + 'px)'); 
 
 
 	 			// $page3initial.animate({opacity: y-y});
@@ -114,6 +116,7 @@
 	 			// $page3.css({opacity: (y-200)/(1090-700)});
 	 			$page3initial.css({opacity: (y-150)/(890-400)});
 	 			$page3initial.css('transform', 'translateX('+ (Math.round(y/6)) + 'px)'); 
+	 			$bluebird.css('transform', 'translateX('+ (Math.round(y/12)) + 'px)');
 
 
 	 			// $page3initial.animate({opacity: y-y});

@@ -224,6 +224,13 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	top:105%;
 }
 
+#bluebird {
+	height: 110px;
+	width:55%;
+	left: 38.4%;
+	background-size:100%;
+}
+
 #textbox {
 		height:315px;
 		max-width:1000px;
@@ -338,6 +345,9 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	#page3initial {
 		padding-bottom: 38.5%
 	}
+	#bluebird {
+		margin-left:-206px;
+	}
 
 }
 @media (max-width:1172px) {
@@ -369,6 +379,11 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	#page3 {
 		padding-bottom: 79%;
+	}
+}	
+@media (max-width:1032px) {
+	#bluebird {
+		left:-34%;
 	}
 }	
 @media (max-width:1069px) {
@@ -436,7 +451,11 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		/*top:151%;*/
 	}
 }
-
+@media (max-width:811px) {
+	#bluebird {
+		left:-30%;
+	}
+}	
 @media (max-width: 767px) {
 
 	#pagetwo-header {
@@ -458,6 +477,9 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	#frame {
 		height: 97%;
 	}
+	#bluebird {
+		left:-31.7%;
+	}
 	#content {
 		margin-left:1.5%;
 	}
@@ -469,6 +491,12 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	#textboxtwo {
 		left:1.2%;
 		/*top: 145%;*/
+	}
+}
+
+@media (max-width: 758px) {
+	#bluebird {
+		left:-28.0%;
 	}
 }
 /*@media (max-width: 675px) {
@@ -500,6 +528,35 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	#vid-box {
 		opacity: 1;
+	}
+	#bluebird {
+		left:-25.0%;
+	}
+}
+@media (max-width: 675px) {
+	#textboxtwo {
+		left:1.2%;
+		/*top: 195%;*/
+		padding-bottom: 26.2%;
+		margin-top: 65%
+	}
+	#page3initial {
+		top:146%;
+	}
+	#textbox {
+		display: none;
+	}
+	#textboxtwo {
+		/*top:215%;*/
+		width:107.8%;
+		left:0%;/*
+		padding-bottom: 36.2%;*/
+	}
+	#vid-box {
+		opacity: 1;
+	}
+	#bluebird {
+		left:-25.0%;
 	}
 }
 /*@media (max-width: 575px) {
@@ -645,6 +702,9 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	#backgroundvid{
 		display: none;
+	}
+	#background {
+		background:url(../images/mtnclear3.jpg) no-repeat;
 	}
 }
 
