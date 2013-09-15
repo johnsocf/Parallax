@@ -1,5 +1,5 @@
 body {
-	background-color: #C6F600;
+	background-color: #fff;
 	padding:10px;
 }
 
@@ -95,7 +95,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	width:91.9%;
 	/*max-height:1960px;
 	height:300%;*/
-	padding-bottom: 93%;
+	padding-bottom: 60%;
 	/*background-image: url(../images/blueframe.jpg);*/
 	background-color:#92DFFF;
 	border:7px solid black;
@@ -117,7 +117,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	height:2000px;
 	width:100%;
 	position:absolute;
-	background:url(../images/mtnclear2.jpg) no-repeat;
+	background:url(../images/mtnclear3.jpg) no-repeat;
 	background-size:100%;
 }
 
@@ -146,7 +146,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	background-color:black;
 	border: 3px solid #fff;
 	position: absolute;
-	top:86.4%;
+	top:87.1%;
 	opacity:0;
 }
 
@@ -161,7 +161,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		position:relative;
 		background-color:#00f8fc;
 		opacity:.8;
-		background:url(../images/mountainfive.jpg) no-repeat;
+		background:url(../images/mountainsix.jpg) no-repeat;
 		background-size:100%;
 		z-index: 1;
 }
@@ -173,7 +173,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		background-repeat:no-repeat;
 		background-position: 0 0px;
 		position:absolute;
-		top:10%;
+		top:0%;
 		transition: all .5s linear;
 		transform-style: preserve-3d;
 		perspective:100;
@@ -184,7 +184,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 #page3 {
 		width:96.5%;
-		padding-bottom: 98%;
+		padding-bottom: 69%;
 		background-image:url('');
 		background-repeat:no-repeat;
 		background-position: 0 0px;
@@ -225,6 +225,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		background-image: url(../images/textbox.jpg);
 		background-size:100%;
 		opacity:.7;
+		margin-bottom: 20px;
 }
 
 #page3initial {
@@ -243,6 +244,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		background-image: url(../images/mtn3.jpg);
 		background-size:100%;
 		opacity:.2;
+		margin-bottom:10px;
 }
 
 /*#textboxoverlay {
@@ -263,11 +265,11 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 }*/
 
 #textboxtwo {
-	padding-bottom: 39%;
+	padding-bottom: 10%;
 	width:94%;
 	background-color:#fff;
 	position: absolute;
-	top:170%;
+	top:171%;
 	left:3%;
 	border: 2px solid #000;
 }
