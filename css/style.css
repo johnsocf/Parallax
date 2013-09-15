@@ -700,10 +700,10 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	#container {
 		padding-bottom: 43%;
-	}
+	}/*
 	#backgroundvid{
 		display: none;
-	}
+	}*/
 	#background {
 		background:url(../images/mtnclear3.jpg) no-repeat;
 	}
