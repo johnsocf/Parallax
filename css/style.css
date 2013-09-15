@@ -119,10 +119,16 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 #background{
 	height:2000px;
+	max-width:1131;
+	height:990px;
 	width:100%;
 	position:absolute;
 	/*background:url(../images/mtnclear3.jpg) no-repeat;*/
 	background-size:100%;
+}
+#backgroundvid{
+	width:100%;
+	background-size: 100%;
 }
 
 #frame {

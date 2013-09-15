@@ -13,7 +13,7 @@
 	     });
 	    
      })(); //enclosure *annonymous.  function w. no name.  self-executing anonymous function.
-      	
+
   $(document).ready(function() {
   		
   		var $page1 = $('#page1');
@@ -22,6 +22,20 @@
   		var $page3initial = $('#page3initial');
   		var $background = $('#background');
   		var $pagetwoheader = $('#pagetwo-header');
+
+  // $(window).resize(function(){
+
+  // 	var backgroundVid = $("#background");
+  // 	var height = backgroundVid.css("height");
+  // 	console.log(height);
+  // 	var width = backgroundVid.css("width");
+  // 	console.log(width);
+  // 	var aspectRatio = height/width;
+  // 	console.log(aspectRatio);
+  // 	var windowWidth = $(window).width();
+
+
+  // });		
 
   $(window).on('scroll', function() {	  
 	 	var y = $(window).scrollTop(); 
@@ -49,9 +63,9 @@
 	 			$pagetwoheader.css({opacity: (0)});
 
 	 		}
-	 		if(y>=700 && y<1592) 	{
+	 		if(y>=300 && y<1592) 	{
 	 			// $page2.css('transform', 'translateX('+ (y-597)*5 + 'px)');
-	 			$pagetwoheader.css({opacity: (y-100)/(1092-300)});
+	 			$pagetwoheader.css({opacity: (y-100)/(1092-400)});
 
 
 	 			// $page3initial.animate({opacity: y-y});
