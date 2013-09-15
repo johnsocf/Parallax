@@ -16,12 +16,15 @@
 
   $(document).ready(function() {
   		
-  		var $page1 = $('#page1');
-  		var $page2 = $('#page2');
-  		var $page3 = $('#page3');
-  		var $page3initial = $('#page3initial');
-  		var $background = $('#background');
-  		var $pagetwoheader = $('#pagetwo-header');
+  		var $page1 = $('#page1'),
+  		$page2 = $('#page2'),
+  		$page3 = $('#page3'),
+  		$page3initial = $('#page3initial'),
+  		$background = $('#background'),
+  		$pagetwoheader = $('#pagetwo-header');
+
+  		var windowWidth = $(window).width();
+
 
   // $(window).resize(function(){
 

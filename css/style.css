@@ -129,6 +129,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 #backgroundvid{
 	width:100%;
 	background-size: 100%;
+	padding-bottom: 75%;
 }
 
 #frame {
@@ -538,7 +539,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		top:113%;
 	}*/
 	#page3initial {
-		top: 78%;
+		top: 97%;
 	}
 	#pagetwo-header {
 		top: 105.2%;
@@ -549,6 +550,9 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	#page3 {
 		left: 0%;
 		width:91.5%;
+	}
+	#backgroundvid{
+		display: none;
 	}
 }
 
@@ -593,6 +597,9 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	#container {
 		padding-bottom: 115%;
 	}
+	#backgroundvid{
+		display: none;
+	}
 }
 
 
@@ -635,6 +642,9 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	#container {
 		padding-bottom: 43%;
+	}
+	#backgroundvid{
+		display: none;
 	}
 }
 
