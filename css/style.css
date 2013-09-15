@@ -121,7 +121,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	height:2000px;
 	width:100%;
 	position:absolute;
-	background:url(../images/mtnclear3.jpg) no-repeat;
+	/*background:url(../images/mtnclear3.jpg) no-repeat;*/
 	background-size:100%;
 }
 
@@ -504,10 +504,10 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 }*/
 @media (max-width: 575px) {
 	#textboxtwo {
-		left:1.2%;
+		left: 0%;
 		/*top: 135%;*/
 		padding-bottom: 25.2%;
-		margin-top: 55%;
+		margin-top: 60%;
 	}
 	#frame {
 		height: 73%;
@@ -517,7 +517,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		width: 106%;
 	}
 	#vid-box {
-		top: 81%;
+		top: 116%;
 	}/*
 	#page3 {
 		border-left:21px solid #fff;
@@ -526,12 +526,13 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	#textbox {
 		top:106%;
 		width: 106%;
+		opacity:.2;
 	}
 	/*#textboxtwo {
 		top:113%;
 	}*/
 	#page3initial {
-		top: 104%;
+		top: 78%;
 	}
 	#pagetwo-header {
 		top: 105.2%;
