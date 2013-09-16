@@ -25,6 +25,14 @@ p {
 	padding:5px;
 }
 
+#credit {
+	color:#fff;
+	float:right;
+	width:25%;
+	font-size:75%;
+	padding:15px;
+}
+
 #one {
 	margin-top:25px;
 }
@@ -140,7 +148,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	max-height:1700px;
 	padding-bottom: 74%;
 	/*background-image: url(../images/blueframe.jpg);*/
-	background-color:#92DFFF;
+	/*background-color:#92DFFF;*/
 	border:7px solid black;
 	background-size:100%;
 	background-repeat: no-repeat;
@@ -185,27 +193,28 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		transition: all 1.0s linear;
 		transform-style: preserve-3d;
 		perspective:100;
-		border: 21px solid #000;
+		/*border: 21px solid #000;*/
 		/*background-image: url(../images/frame2.png);*/
 		background-size:100%;
 		opacity:1;
 		z-index: 3;
 }
 #birds {
-	width:99.3%;
-	padding: 3px;
+	width:100%;
+	/*padding: 3px;*/
 	background-size: 100%;
-	padding-top: 5px;
+	/*padding-top: 5px;*/
 	margin: 0 auto;
 }
 
 #pagetwo-header {
 	padding-bottom: 1%;
-	width:99.3%;
+	width:101.5%;
 	background-color:black;
 	border: 3px solid #fff;
 	position: absolute;
-	top:87.2%;
+	border: 10px solid #000;
+	top:89.2%;
 	opacity:0;
 }
 
@@ -232,7 +241,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		background-repeat:no-repeat;
 		background-position: 0 0px;
 		position:absolute;
-		top:0%;
+		top:2%;
 		transition: all .5s linear;
 		transform-style: preserve-3d;
 		perspective:100;
@@ -242,16 +251,16 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 }
 
 #page3 {
-		width:96.5%;
+		width:100%;
 		padding-bottom: 76%;
 		background-image:url('');
 		background-repeat:no-repeat;
 		background-position: 0 0px;
 		position:absolute;
 		background-color: #fff; 
-		border-left: 21px solid #000;
+		/*border-left: 21px solid #000;
 		border-right: 21px solid #000;
-		border-bottom: 21px solid #000;
+		border-bottom: 21px solid #000;*/
 		margin-top:0px;
 		transition: all 1.0s linear;
 		transform-style: preserve-3d;
@@ -264,12 +273,13 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 #vid-box {
 	height:110px;
 	max-width: 1070px;
-	width:105%;
+	width:100%;
 	background-color:#92DFFF;
 	border-top: 3px solid #000;
 	border-bottom: 3px solid #000;
 	position: absolute;
 	top:105%;
+	background-size:100%;
 }
 
 #bluebird {
@@ -337,18 +347,20 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 .textboxtwo {
 	padding-bottom: 4.2%;
-	width:100.3%;
+	width:103.6%;
 	background-color:#fff;
 	position: relative;
 	margin-top:53%;
-	left: -.35%;
+	/*left: -.35%;*/
 	/*top:167%;*/
 	/*left:3%;*/
-	border: 2px solid #000;
+	/*border: 2px solid #000;*/
 }
 
 #lowertextbox {
 	left:0%;
+	width:100%;
+	top:1%;
 }
 
 .text-wrapper {
@@ -418,7 +430,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		padding-bottom: 38.95%
 	}
 	.textboxtwo {
-		width:101%;
+	/*	width:101%;*/
 		/*top:;*/
 	}
 }
@@ -436,10 +448,20 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 @media (max-width:1185px) {
 	.textboxtwo {
 		/*top: 164%;*/
-		left: -.7%;
+		/*left: -.7%;*/
 	}
 	#page3 {
 		padding-bottom: 79%;
+	}
+}	
+@media (max-width:1177px) {
+	#lowertextbox {
+		top:2%;
+	}
+}	
+@media (max-width:1046px) {
+	#lowertextbox {
+		/*left:2%;*/
 	}
 }	
 @media (max-width:1032px) {
@@ -473,10 +495,10 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	.textboxtwo {
 		/*top:153%;*/
 		margin-top: 58%;
-		left: -.7%;
+		/*left: -.7%;*/
 	}
 	#lowertextbox {
-		left: .4%;
+		/*left: .4%;*/
 	}
 	#page3 {
 		padding-bottom: 89%;
@@ -510,13 +532,17 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	.textboxtwo {/*
 		padding-bottom: 34.2%;*/
-		left:-.9%;
+		/*left:-.9%;*/
 		margin-top: 60%;
 		padding-bottom: 7%;
 		/*top:151%;*/
 	}
 	p {
 		font-size: 80%
+	}
+	#pagetwo-header {
+		top: 86.7%;
+		left:-.5%;
 	}
 }
 @media (max-width:811px) {
@@ -558,11 +584,11 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 @media (max-width: 767px) {
 	.textboxtwo {
-		left:-.8%;
+		/*left:-.8%;*/
 		/*top: 145%;*/
 	}
 	#lowertextbox {
-		left:.7%;
+		/*left:.7%;*/
 	}
 }
 
@@ -589,7 +615,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 @media (max-device-width: 675px) {
 	.textboxtwo {
-		left:1.2%;
+		/*left:1.2%;*/
 		/*top: 195%;*/
 		padding-bottom: 26.2%;
 		margin-top: 65%
@@ -619,15 +645,16 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		/*top: 195%;*/
 		padding-bottom: 6.2%;
 		margin-top: 65%;
-		width:1000%;
+		width:100%;
 		width:99%;
-		left:.45%;
+		/*left:.45%;*/
 	}
 	#container {
 		padding-bottom: 155%
 	}
 	#page3initial {
-		top:245%;
+		top:305%;
+		width:90%;
 	}
 	#page3 {
 		padding-bottom: 170%
@@ -636,21 +663,31 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		display: none;
 	}
 	#lowertextbox {
-		width:96%;
+		width:97%;
 		left:2.55%;
-		margin-top:109%;
+		margin-top:130%;
 	}
 
 	#vid-box {
 		opacity: 1;
+		display:none;
+	}
+	#logo {
+		display:none;
 	}
 	#bluebird {
 		left:-25.0%;
 	}
+	#pagetwo-header {
+		display:none;
+	}
+	#backgroundvid {
+		display:none;
+	}
 }
 @media (max-width: 675px) {
 	.textboxtwo {
-		left:1.2%;
+		/*left:1.2%;*/
 		/*top: 195%;*/
 		padding-bottom: 5.2%;
 		margin-top: 65%
@@ -663,13 +700,13 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	.textboxtwo {
 		/*top:215%;*/
-		width:107.8%;
-		left:-4.3%;/*
+		/*width:107.8%;
+		left:-4.3%;*//*
 		padding-bottom: 36.2%;*/
 	}
 	#lowertextbox {
-		left:2.1%;
-		width:99%;
+		/*left:2.1%;*/
+		width:100%;
 	}
 	#vid-box {
 		opacity: 1;
@@ -695,7 +732,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 }*/
 @media (max-width: 575px) {
 	.textboxtwo {
-		left: -4.5%;
+		/*left: -4.5%;*/
 		/*top: 135%;*/
 		padding-bottom: 6.2%;
 		margin-top: 60%;
@@ -765,9 +802,14 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 @media (max-device-width: 480px) and (orientation:portrait) {
 	.textboxtwo {
-		left:1.2%;
+		/*left:1.2%;*/
 		/*top: 135%;*/
 		padding-bottom: 10.2%;
+		width:103.7%;
+		/*left:3%;*/
+	}
+	#uppertextbox {
+		top: 15%;
 	}
 	#frame {
 		height: 54.5%;
@@ -777,19 +819,20 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	#vid-box {
 		top: 105%;
+		display:none;
 	}
 	#textbox {
 		top:75.6%;
 		width:106%;
 	}
 	.textboxtwo {
-		left:-3.7%;
+		/*left:-3.7%;*/
 		/*top:93.5%;*/
-		width:107%;
+		/*width:107%;*/
 		padding-bottom: 6.2%;
 	}
 	#page3initial {
-		top: 120%;
+		top: 118%;
 	}
 	#pagetwo-header {
 		top: 173.5%;
@@ -798,10 +841,11 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		width:120%;
 		left:-10%;
 		background-color:#92DFFF;
+		display: none;
 	}
 	#page3 {
 		left: -.1%;
-		padding-bottom: 155%;
+		padding-bottom: 161%;
 	}
 	#container {
 		padding-bottom: 115%;
@@ -819,7 +863,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 @media (max-width: 480px) and (orientation: landscape) {
 	.textboxtwo {
-		left:1.2%;
+		/*left:1.2%;*/
 		/*top: 135%;*/
 		padding-bottom: 6.2%;
 	}
@@ -837,7 +881,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		width:106%;
 	}
 	.textboxtwo {
-		margin-left: -5%;
+		/*margin-left: -5%;*/
 		/*top:93.5%;*/
 		width:100%;
 		padding-bottom: 6.2%;
