@@ -151,7 +151,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	width:92%;
 	max-height:960px;
 	height:100%;
-	background-color:#C6F600;
+	/*background-color:#C6F600;*/
 	margin-left:3.5%;
 	position:relative;
 }
@@ -191,9 +191,16 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		opacity:1;
 		z-index: 3;
 }
+#birds {
+	width:99.3%;
+	padding: 3px;
+	background-size: 100%;
+	padding-top: 5px;
+	margin: 0 auto;
+}
 
 #pagetwo-header {
-	height:83px;
+	padding-bottom: 1%;
 	width:99.3%;
 	background-color:black;
 	border: 3px solid #fff;
@@ -521,6 +528,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 	#pagetwo-header {
 		top: 86.7%;
+		left:-.5%;
 	}
 	#vid-box {
 		top:103%;
