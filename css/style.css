@@ -618,18 +618,21 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		/*left:1.2%;*/
 		/*top: 195%;*/
 		padding-bottom: 26.2%;
-		margin-top: 65%
+		margin-top: 65%;
+		width:107.8%;
+		left:0%;
 	}
 	#page3initial {
-		top:146%;
+		/*top:146%;
+		padding-bottom: 41%;*/
+		/*display:none;*/
 	}
 	#textbox {
-		display: none;
+		/*display: none;*/
 	}
 	.textboxtwo {
 		/*top:215%;*/
-		width:107.8%;
-		left:0%;/*
+		/*
 		padding-bottom: 36.2%;*/
 	}
 	#vid-box {
@@ -644,7 +647,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		/*left:1.2%;*/
 		/*top: 195%;*/
 		padding-bottom: 6.2%;
-		margin-top: 65%;
+		margin-top: 45%;
 		width:100%;
 		width:99%;
 		/*left:.45%;*/
@@ -653,8 +656,10 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		padding-bottom: 155%
 	}
 	#page3initial {
-		top:305%;
-		width:90%;
+		top:250%;
+		width:100%;
+		padding-bottom: 47.1%;
+		/*display:none;*/
 	}
 	#page3 {
 		padding-bottom: 170%
@@ -664,8 +669,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	#lowertextbox {
 		width:97%;
-		left:2.55%;
-		margin-top:130%;
+		margin-top:109%;
 	}
 
 	#vid-box {
@@ -822,7 +826,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		display:none;
 	}
 	#textbox {
-		top:75.6%;
+		top:119.6%;
 		width:106%;
 	}
 	.textboxtwo {
