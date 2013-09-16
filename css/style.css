@@ -126,7 +126,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	max-width:1088px;
 	margin: 0 auto;
 	width: 99.8%;
-	border:solid #fff 3px;
+	/*border:solid #fff 3px;*/
 	color:#fff;
 }
 
@@ -200,7 +200,7 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		z-index: 3;
 }
 #birds {
-	width:100%;
+	width:100.37%;
 	/*padding: 3px;*/
 	background-size: 100%;
 	/*padding-top: 5px;*/
@@ -209,11 +209,11 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 
 #pagetwo-header {
 	padding-bottom: 1%;
-	width:101.5%;
-	background-color:black;
-	border: 3px solid #fff;
+	width:103.7%;
+	background-color:#fff;
+	/*border: 3px solid #fff;*/
 	position: absolute;
-	border: 10px solid #000;
+	/*border: 10px solid #000;*/
 	top:89.2%;
 	opacity:0;
 }
@@ -484,6 +484,9 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 		margin-top: 56%;
 		padding-bottom: 8.2%;
 	}
+	#pagetwo-header {
+		width:103.4%;
+	}
 	#page3 {
 		padding-bottom: 85%;
 	}
@@ -502,6 +505,9 @@ ul.nav li a.ipsum:hover, ul.nav li a.ipsum:focus {
 	}
 	#page3 {
 		padding-bottom: 89%;
+	}
+	#pagetwo-header {
+		width:103.54%;
 	}
 }
 @media (max-width:883px) {
